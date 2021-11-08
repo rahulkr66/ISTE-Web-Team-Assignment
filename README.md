@@ -1,6 +1,6 @@
 # ISTE-Web-Team-Assignment
 ## Assignment
-Design and implement the homepage component of the [ISTE Website](https://iste.nitk.ac.in/#/)
+Design and implement the homepage component of the [ISTE Website](https://iste.nitk.ac.in/#/) in React
 ### Instructions
 1. You can use your own assets(images) wherever needed
 2. Make sure to divide your implementation into meaningful components for various sections
