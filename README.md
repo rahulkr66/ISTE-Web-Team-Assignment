@@ -6,7 +6,9 @@ Design and implement the homepage component of the [ISTE Website](https://iste.n
 2. Replace content with placeholder data 
 3. Make sure to divide your implementation into meaningful components for various sections
 4. You are not required to make a one-to-one replica but it should be close enough
-5. You are free to use any CSS framework you are comfortable with
+5. You are encouraged to make use of styled-components for styling
+6. The webpage should be responsive
+
 ### Mandatory components
 1. Navbar
 2. About Us
