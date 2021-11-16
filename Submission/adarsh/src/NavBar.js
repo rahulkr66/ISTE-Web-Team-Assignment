@@ -1,14 +1,12 @@
 import React from "react";
 import "./NavBar.css";
 
-class NavBar extends React.Component {
-    render() {
-        return(
-            <div className="navbar">
-                This is the navbar!
-            </div>
-        );
-    }
+const NavBar = (props) => {
+    return(
+        <div className="navbar">
+            {props.text}
+        </div>
+    );
 }
 
 export default NavBar;

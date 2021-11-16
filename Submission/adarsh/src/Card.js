@@ -5,7 +5,12 @@ class Card extends React.Component {
     render() {
         return(
             <div className="card">
-                This is a card!
+                <div className="image">
+                    <img src={this.props.image} />
+                </div>
+                <div className="name">
+                    {this.props.name}
+                </div>
             </div>
         );
     }

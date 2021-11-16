@@ -1,8 +1,22 @@
 .card {
     border: 2px solid #eee;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.img {
+    width: 300px;
+    height: 70%;
+}
+
+.name {
+    padding: 10px 0;
+    font-size: 30px;
+    border-top: 2px solid lightblue;
+    width: 100%;
+    text-align: center;
 }

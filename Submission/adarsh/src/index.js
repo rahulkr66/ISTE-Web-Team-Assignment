@@ -6,14 +6,21 @@ import NavBar from "./NavBar";
 import Main from "./Main";
 import Footer from "./Footer";
 
-const App = () => {
-    return(
-        <div className="index">
-            <NavBar />
-            <Main />
-            <Footer />
-        </div>
-    );
+class App extends React.Component {
+    state = {
+        "headerText": "Welcome to ISTE NITK",
+        "footerText": "Footer"
+    };
+
+    render() {
+        return(
+            <div className="index">
+                <NavBar text={this.state.headerText}/>
+                <Main />
+                <Footer text={this.state.footerText}/>
+            </div>
+        );
+    }
 };
 
 ReactDOM.render(
