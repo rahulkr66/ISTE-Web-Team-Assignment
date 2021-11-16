@@ -5,8 +5,8 @@ class Card extends React.Component {
     render() {
         return(
             <div className="card">
-                <div className="image">
-                    <img src={this.props.image} />
+                <div>
+                    <img src={this.props.image} alt="SIG Card" width="300px" height="245px" />
                 </div>
                 <div className="name">
                     {this.props.name}
