@@ -1,14 +1,10 @@
 .cards {
     box-sizing: border-box;
-    min-width: 100vw;
-    min-height: 100vh;
-    display: grid;
-    background: #222;
-    color: #fff;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    overflow-x: hidden;
 }
