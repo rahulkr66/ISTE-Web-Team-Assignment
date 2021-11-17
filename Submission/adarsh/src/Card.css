@@ -1,0 +1,19 @@
+.card {
+    border: 2px solid #eee;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 30px;
+    border-top: 2px solid lightblue;
+    width: 100%;
+    text-align: center;
+    background: #300a24;
+}

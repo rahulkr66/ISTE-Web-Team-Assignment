@@ -1,0 +1,10 @@
+.cards {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}

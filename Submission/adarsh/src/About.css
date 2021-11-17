@@ -1,0 +1,21 @@
+.about {
+    width: 90vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.heading {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #FED;
+    text-align: center;
+}
+
+.text {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
