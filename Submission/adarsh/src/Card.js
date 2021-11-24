@@ -4,9 +4,9 @@ import "./Card.css";
 class Card extends React.Component {
     render() {
         return(
-            <div className="card">
+            <div className="col m12 s6">
                 <div>
-                    <img src={this.props.image} alt="SIG Card" width="300px" height="245px" />
+                    <img src={this.props.image} alt="SIG Card" width="300px" height="230px" />
                 </div>
                 <div className="name">
                     {this.props.name}

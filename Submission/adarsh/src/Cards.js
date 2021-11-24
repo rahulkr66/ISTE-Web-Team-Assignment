@@ -80,8 +80,13 @@ class Cards extends React.Component {
             />);
         }
         return(
-            <div className="cards">
-                {items}
+            <div>
+                <div className="heading">
+                    Special Interest Groups SIG(s)
+                </div>
+                <div className="cards container">
+                    {items}
+                </div>
             </div>
         );
     }
